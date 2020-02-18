@@ -1,0 +1,108 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: arial, sans-serif;
+	background-color: rgba(0.8, 0.4, 0.8, .5);
+	background-image: url("img/background.jpg");
+	background-blend-mode: overlay;
+	background-size: cover ;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+
+.container {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+}
+
+h1,
+h3,
+p {
+	margin-top: 0;
+}
+
+h1 {
+	font-family: "arial", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.title {
+	font-size: 1.65rem;
+	margin: 3rem 0 .5rem;
+}
+
+.subtitle {
+	color: #E0007F;
+	margin: 0 3rem 5rem;
+}
+
+.buttons-testimonal-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 2px solid silver;
+	border-radius: 8px;
+	margin: 0 3rem 3rem;
+}
+
+.btn {
+	background: none;
+	font-size: 2rem;
+	border: 2px solid #E0007F;
+	border-radius: 50%;
+}
+
+.btn-left {
+	padding-right: .6rem;
+	margin-left: -2.5rem;
+}
+
+.btn-right {
+	padding-left: .6rem;
+	margin-right: -2.5rem;
+}
+
+#testimonial {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 2rem;
+}
+
+#picture {
+	background-image: url("img/woman2.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 8rem;
+	height: 6rem;
+	border-radius: 50%;
+	margin: -3rem auto 1rem;
+}
+
+#stars {
+	color: #E0007F;
+}
+
+.review-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.fas {
+	color: #E0007F
+}
+
+#review {
+	margin: 0 1rem;
+}
